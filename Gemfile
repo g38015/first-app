@@ -12,10 +12,12 @@ gem 'jbuilder', '~> 1.2'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'unicorn'
 end
 
 group :development do
   gem 'sqlite3'
+  gem 'thin'
 end
 
 group :doc do
